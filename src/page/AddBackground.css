@@ -1,0 +1,97 @@
+/* AddBackground.css */
+body {
+    background-color: #0c1025;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .dropzone {
+    margin: 20px auto;
+    padding: 40px;
+    border: 2px dashed #fff;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .dropzone:hover {
+    border-color: #888;
+  }
+  
+  .background-type {
+    margin-top: 20px;
+  }
+  
+  .background-type div {
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  .color-picker {
+    margin-top: 20px;
+  }
+  
+  .predefined-backgrounds {
+    margin-top: 20px;
+  }
+  
+  .predefined-options img {
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .preview-section {
+    margin-top: 20px;
+  }
+  
+  .image-preview {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  canvas {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    background-color: white;
+    color: #0c1025;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  

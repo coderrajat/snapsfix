@@ -1,0 +1,93 @@
+/* ImageEnhancer.css */
+body {
+    background-color: #0c1025;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .dropzone {
+    margin: 20px auto;
+    padding: 40px;
+    border: 2px dashed #fff;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .dropzone:hover {
+    border-color: #888;
+  }
+  
+  .scale-factor-input {
+    margin-top: 20px;
+  }
+  
+  .scale-factor-input label {
+    margin-right: 10px;
+  }
+  
+  .preview-section {
+    margin-top: 20px;
+  }
+  
+  .image-preview {
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  .enhance-button {
+    background-color: white;
+    color: #0c1025;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .enhance-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    background-color: white;
+    color: #0c1025;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  

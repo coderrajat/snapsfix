@@ -26,8 +26,10 @@ import linkedin from "../assets/media/images/linkedin.png"
 import facebook from "../assets/media/images/facebook.png"
 import Navbar from '../components/Navbar'
 import { Icon } from '@iconify/react/dist/iconify.js'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+  const nevigate=useNavigate()
 
 
   return (
@@ -38,7 +40,7 @@ function Home() {
           <div className='w-50'>
             <div className='row'>
               <div className='col-md-5 justify-content-center row'>
-                <div className='usercard'>
+                <div className='usercard' onClick={()=>nevigate("background-color")}>
                   <Icon
                     icon="bxs:color"
                     style={{
@@ -53,7 +55,7 @@ function Home() {
                 </div>
               </div>
               <div className='col-md-5 justify-content-center row'>
-                <div className='usercard'>
+                <div className='usercard' onClick={()=>nevigate("background-remover")}>
                   <Icon
                     icon="arcticons:removebg"
                     style={{
@@ -70,7 +72,7 @@ function Home() {
             </div>
             <div className=' row mt-4'>
               <div className='col-md-5 justify-content-center row'>
-                <div className='usercard'>
+              <div className='usercard' onClick={()=>nevigate("image-enhancer")}>
                   <Icon
                     icon="pajamas:issue-type-enhancement"
                     style={{
@@ -85,7 +87,7 @@ function Home() {
                 </div>
               </div>
               <div className='col-md-5 justify-content-center row'>
-                <div className='usercard'>
+                <div className='usercard' onClick={()=>nevigate("add-background")}>
                   <Icon
                     icon="mingcute:background-fill"
                     style={{
@@ -109,10 +111,14 @@ function Home() {
                 <div class="detail-box">
                   <div class="heading_container">
                     <h2>
-                      About Studio
+                      About Us
                     </h2>
                     <p>
-                      It is a long established fact that a reader will be distracted by the readable content of a page
+                      Welcome to snapsfix, where we transform your photos with ease and precision. Our innovative photo editing tool is designed to help you take your images to the next level. Whether you want to remove or add backgrounds, or enhance your photos with special effects, our platform provides a range of features to make your editing process simple and effective.
+
+                      We believe that everyone should have access to powerful, user-friendly photo editing tools. Our goal is to empower you to create stunning visuals effortlessly. Explore our features and see how easy it can be to achieve professional-quality results right from your computer or device.
+
+                      Join us and experience the difference with snapsfix—where your images become masterpieces.
                     </p>
                     <a href="">
                       Read More
